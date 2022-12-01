@@ -1,0 +1,58 @@
+/* 01. universal selector */
+*{
+    background-color: rgb(175, 142, 142); 
+  }
+   
+/* 02. element selector */
+h1{
+    background-color: rgb(122, 56, 56);
+    color:white;
+}
+
+/* 03. class selector */
+.b{
+    color: aliceblue;
+    background-color: rgb(153, 33, 33);
+    font-size: 30px;
+    text-align: center;
+}
+
+/* 04. id selector.  ID is unique  */
+
+#c{
+    background-color: rgb(85, 112, 151);
+    color: aliceblue;
+}
+
+/* 05. decendent selector */
+.d ul li a{
+    color: brown;
+    background-color: #fff;
+}
+
+/* 06. child selector  */
+.e>ul>li{
+    background-color: #fff;
+    color: rgb(156, 61, 61);
+}
+
+/* 07. adjacent selector : - sme ek <p>  ko chhod k dusre <p> ko attribute apply honge
+ agr aapko har  */
+p+p {
+    background-color: #fff;
+    color: blueviolet;
+    text-align: center;
+    font-size: larger;
+}
+
+/* 08. adjacentsibling selector */
+h2~p {
+    background-color: #fff;
+    color: crimson;
+}
+
+/* 09. grouping selector  */
+h2, address{ 
+    background-color: #fff;
+    color: black;
+}
