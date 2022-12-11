@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
+        * {
             border: 1px solid black;
         }
-        .InlineDisplay{
+
+        .InlineDisplay {
             border: 1px solid green;
             /* display: flex; */
             /* justify-content: space-between; */
         }
-        .box{
+
+        .box {
             border: 1px solid red;
         }
-        .InlineDisplay .box{
+
+        .InlineDisplay .box {
 
             /* display: block; */
             /* display: inline; */
@@ -27,13 +31,14 @@
         }
     </style>
 </head>
+
 <body>
     before
     <div>Block</div>
     after
     <hr>
     before
-    <div >
+    <div>
         <a href="#">Inline</a>
         <label for="test">Checking</label>
         <span>Right</span>
@@ -47,6 +52,9 @@
         <div class="box">Data2</div>
         <div class="box">Data3</div>
     </div>
-    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perspiciatis fuga doloremque recusandae! Magnam, beatae cupiditate ullam nesciunt perferendis architecto, quo rem voluptatem autem laudantium atque odit cumque tenetur nam.</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo perspiciatis fuga doloremque recusandae! Magnam,
+        beatae cupiditate ullam nesciunt perferendis architecto, quo rem voluptatem autem laudantium atque odit cumque
+        tenetur nam.</div>
 </body>
+
 </html>
